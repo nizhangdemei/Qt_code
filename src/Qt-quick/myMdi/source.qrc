@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pic/about.png</file>
+        <file>pic/copy.png</file>
+        <file>pic/cut.png</file>
+        <file>pic/exit.png</file>
+        <file>pic/new.png</file>
+        <file>pic/next.png</file>
+        <file>pic/open.png</file>
+        <file>pic/paste.png</file>
+        <file>pic/previous.png</file>
+        <file>pic/redo.png</file>
+        <file>pic/save.png</file>
+        <file>pic/saveAs.png</file>
+        <file>pic/undo.png</file>
+    </qresource>
+</RCC>
