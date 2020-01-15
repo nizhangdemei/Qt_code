@@ -150,5 +150,4 @@ void MdiChild::setCurrentFile(const QString &fileName)
     setWindowModified(false);
     //设置窗口标题
     setWindowTitle(userFriendlyCurrentFile() + "[*]");
-
 }

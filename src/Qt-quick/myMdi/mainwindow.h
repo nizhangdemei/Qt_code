@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 #include <QAction>
+#include <QMdiSubWindow>
 #include <QMainWindow>
 class MdiChild;
 namespace Ui {
@@ -19,11 +20,16 @@ public:
 
     private slots:
         void on_actionNew_triggered();
+        //设置活动子窗口
+        void setActionSubWindos(QWidget * window);
+
+        void on_actionOpen_triggered();
 
 private:
     Ui::MainWindow *ui;
     QAction *actionSeparator;
     MdiChild * activeMdiChild();//活动窗口
+    QMdiSubWindow *findMdiSubWindos(const QString &fileName);
 
 };
 

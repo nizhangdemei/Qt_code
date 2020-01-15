@@ -66,3 +66,8 @@ MdiChild *MainWindow::activeMdiChild()
     return nullptr;
 
 }
+
+void MainWindow::on_actionOpen_triggered()
+{
+
+}
