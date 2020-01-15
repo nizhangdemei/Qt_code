@@ -45,6 +45,7 @@ void MainWindow::updateMenus()
     //有活动窗口并且文档有恢复操作时恢复动作可用
     ui->actionRedo->setEnabled(activeMdiChild() && activeMdiChild()->document()->isRedoAvailable());
 
+
 }
 
 void MainWindow::on_actionNew_triggered()

@@ -5,6 +5,7 @@
 class MdiChild;
 namespace Ui {
 class MainWindow;
+class QMdiSubWindow;
 }
 
 class MainWindow : public QMainWindow
