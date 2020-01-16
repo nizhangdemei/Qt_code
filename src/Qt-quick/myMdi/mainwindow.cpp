@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QMdiSubWindow>
 #include "mdichild.h"
+#include <QObject>
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -50,11 +51,7 @@ void MainWindow::updateMenus()
 
 void MainWindow::on_actionNew_triggered()
 {
-    MdiChild *child = new MdiChild();
-    ui->mdiArea->addSubWindow(child);
-    //新建文件
-    child->newFile();
-    child->show();
+
 }
 
 MdiChild *MainWindow::activeMdiChild()
